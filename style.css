@@ -1,0 +1,209 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(Montserrat-Regular.ttf);
+}
+
+
+body{
+  font-family: Montserrat;
+  box-sizing: border-box;
+  margin: 0px 0px;
+}
+
+
+header{
+  max-height: 80px;
+  background-color: black;
+  color: white;
+}
+
+.header-container{
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left{
+  font-weight: bold;
+  padding-left: 15px;
+  margin-left: 25px;
+
+}
+
+div i{
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1.5;
+
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+}
+
+
+.nav-right{
+padding-right: 50px;
+}
+
+.container-1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 15px 104px;
+  max-height: 822px;
+}
+
+.download h1{
+  font-weight: bolder;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+nav li{
+  list-style-type: none;
+  margin: 5px 5px;
+}
+
+.nav-right li:hover{
+  cursor: pointer;
+  color: #1DB954;
+}
+
+.download{
+  background-color: #19E68C;
+}
+
+
+.laptop{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.img{
+  position: absolute;
+}
+
+.dl-button{
+  border-radius: 500px;
+  padding: 14px 32px;
+  border: none;
+  font-weight: bold;
+}
+.dl-button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.sec-2{
+  background-color:white ;
+  padding: 70px 15px;
+}
+
+.container-2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  width: 120px;
+  line-height: 2;
+
+}
+
+.sec-3{
+  background-color: #222326;
+  padding-top: 50px;
+  color: white;
+}
+
+.sec-3 img{
+  width: 500px;
+}
+
+.one-acc{
+  font-size: 20px;
+}
+
+.container-3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.platforms{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-inline-start: 0px;
+  flex-wrap: wrap;
+}
+
+
+div li{
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+ list-style-type: none;
+}
+
+
+.foot{
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+
+.footer-spotify{
+  font-size: 20px;
+  padding-left: 0px;
+  margin-top: 1em;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 45px;
+}
+
+.footer-links{
+  display: flex;
+  flex-direction: row;
+  max-width: 50%;
+  justify-content: space-between;
+}
+
+.footer-links div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 30px;
+  line-height: 2em;
+}
+
+
+footer a{
+  color: white;
+  text-decoration: none;
+}
+
+.brands{
+font-size: 100px;
+display: block;
+}
