@@ -173,7 +173,7 @@ div li{
 .footer-spotify{
   font-size: 20px;
   padding-left: 0px;
-  margin-top: 1em;
+  margin-top: .7em;
 }
 footer{
   display: flex;
@@ -195,15 +195,62 @@ footer{
   align-items: center;
   padding-left: 30px;
   line-height: 2em;
+  text-align: center;
 }
 
 
 footer a{
   color: white;
   text-decoration: none;
+  padding-top: 0.5em;
 }
 
 .brands{
 font-size: 100px;
-display: block;
+}
+
+@media (Max-width: 768px){
+  
+  h1{
+    text-align: center;
+  }
+
+  .link-3{
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul.link-3 li{
+    padding-top: 1em;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .footer-spotify{
+    display: flex;
+    align-items: center;
+
+  }
+ .footer-links{
+      display: flex;
+      flex-direction: column;
+      margin-top: 2em;
+      padding-left: 0%;
+  }
+
+  .footer-links div{
+    padding-left: 0%;
+  }
+
+  div.footer-1 a{
+    text-align: center;
+  }
+
+
+
 }
